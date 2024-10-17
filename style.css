@@ -437,7 +437,7 @@ main .gambar-hero img {
 
 /* Article */
 article {
-    background-image: url(/assets/bgTesti-furnitur.png);
+    background-image: url(./assets/bgTesti-furnitur.png);
     padding: 100px 40px;
 }
 
