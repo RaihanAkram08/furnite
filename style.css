@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Tampilan Mobile */
+
+.container {
+    /* background-color: antiquewhite; */
+    padding: 0px 20px;
+}
+
+.navbar {
+    display: none;
+}
+
+main {
+    background-color: rgb(243, 251, 244);
+}
+
+main nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 40px;
+}
+
+main nav .gambar-logo {
+    width: 50%;
+    align-items: start;
+    
+}
+
+main nav .gambar-logo img {
+    width: 50%;
+}
+
+main header .teks {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 0px 20px;
+}
+
+main header .teks .teks-lagi {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main header .teks > h1 {
+    font-size: 50px;
+}
+
+main header .teks > p {
+    font: 5px;
+}
+
+main header .teks div {
+    margin-top: 30px;
+}
+
+main header .teks div a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+main .gambar-hero {
+    padding: 95px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+main .gambar-hero img {
+    width: 90%;
+}
+
+/* Section Satu */
+
+.section-satu {
+    background-color: #fff;
+}
+
+.section-satu .wrap-property {
+    position: relative;
+}
+
+.section-satu .wrap-property .property {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.section-satu .card-satu {
+    padding-top: 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-satu .gambar-satu {
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-satu .gambar-satu > div img {
+    width: 100%;
+}
+
+.section-satu .gambar-satu > img {
+    width: 100%;
+}
+
+.section-satu .gambar-dua {
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-satu .gambar-dua > div img {
+    width: 100%;
+}
+
+.section-satu .gambar-dua > img {
+    width: 100%;
+}
+
+.section-satu .teks {
+    text-align: center;
+}
+
+.section-satu .teks h3 {
+    padding-top: 155px;
+    padding-bottom: 60px;
+    font-size: 30px;
+}
+
+.section-satu .teks div {
+    padding-top: 30px;
+    padding-bottom: 110px;
+}
+
+.section-satu .teks a {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+.card-dua {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-dua .gambar-tiga {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 10px;
+}
+
+.card-dua .gambar-empat {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 10px 95px 10px;
+}
+
+.gambar-tiga .produk-satu {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.gambar-tiga .produk-satu .gambar {
+    width: 100%;
+    
+}
+
+.gambar-tiga .produk-satu .gambar img {
+    width: 70%;
+}
+
+.gambar-tiga .produk-satu p {
+    font-size: 13.5px;
+}
+
+.gambar-tiga .produk-satu .harga {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.gambar-tiga .produk-satu .harga del {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+
+.gambar-tiga .produk-dua {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.gambar-tiga .produk-dua .gambar {
+    width: 100%;
+    
+}
+
+.gambar-tiga .produk-dua .gambar img {
+    width: 70%;
+}
+
+.gambar-tiga .produk-dua p {
+    font-size: 13.5px;
+}
+
+.gambar-tiga .produk-dua .harga {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.gambar-tiga .produk-dua .harga del {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+.gambar-tiga .produk-tiga {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.gambar-tiga .produk-tiga .gambar {
+    width: 100%;
+    
+}
+
+.gambar-tiga .produk-tiga .gambar img {
+    width: 70%;
+}
+
+.gambar-tiga .produk-tiga p {
+    font-size: 13.5px;
+}
+
+.gambar-tiga .produk-tiga .harga {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.gambar-tiga .produk-tiga .harga del {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+.gambar-empat .produk-empat {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.gambar-empat .produk-empat .gambar {
+    width: 100%;
+    
+}
+
+.gambar-empat .produk-empat .gambar img {
+    width: 70%;
+}
+
+.gambar-empat .produk-empat p {
+    font-size: 13.5px;
+}
+
+.gambar-empat .produk-empat .harga {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.gambar-empat .produk-empat .harga del {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+.gambar-empat .produk-lima {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.gambar-empat .produk-lima .gambar {
+    width: 100%;
+    
+}
+
+.gambar-empat .produk-lima .gambar img {
+    width: 70%;
+}
+
+.gambar-empat .produk-lim p {
+    font-size: 13.5px;
+}
+
+.gambar-empat .produk-lima .harga {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.gambar-empat .produk-lima .harga del {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+.gambar-empat .produk-enam {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    box-shadow: 0px 0px 2px 0px rgba(201,201,201,1);
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.gambar-empat .produk-enam .gambar {
+    width: 100%;
+    
+}
+
+.gambar-empat .produk-enam .gambar img {
+    width: 70%;
+}
+
+.gambar-empat .produk-enam p {
+    font-size: 13.5px;
+}
+
+.gambar-empat .produk-enam .harga {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.gambar-empat .produk-enam .harga del {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* Article */
+article {
+    background-image: url(/assets/bgTesti-furnitur.png);
+    padding: 100px 40px;
+}
+
+article .testimonial {
+    background-color: #fff;
+    padding: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+article .testimonial .user {
+    display: flex;
+    flex-direction: column;
+}
+
+article .testimonial .user img {
+    border-radius: 50px;
+    width: 15%;
+}
+
+article .testimonial .user div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+}
+
+footer .footer-dua .social-media a {
+    text-decoration: none;
+    color: #444;
+    width: 50%;
+}
+
+footer .footer-dua p {
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+
+
+@media (min-width: 768px) {
+    .section-satu .wrap-property .property {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+    }
+}
+
+
+
+
+/* Tampilan iPad - Laptop - Desktop */
+@media (min-width: 1024px) {
+
+
+    .container {
+        padding: 0px 50px;
+    }
+
+
+    main .burger-menu {
+        display: none;
+    }
+
+    main nav .gambar-logo {
+        width: 50%;
+        text-align: start;
+    }
+
+    main nav .gambar-logo img {
+        width: 20%;
+    }
+
+    main nav .navbar {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+   
+
+    main .navbar a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    header  {
+        display: flex;
+        flex-direction: row;
+    }
+
+    header .teks {
+        width: 50%;
+        text-align: left;
+        align-items: start;
+        justify-content: flex-start;
+    }
+
+    header .teks .teks-lagi {
+        text-align: start;
+    }
+
+    header > h1 {
+        text-align: left;
+
+    }
+
+    header .gambar-hero {
+        width: 50%;
+    }
+
+    header .gambar-hero img {
+        width: 80%;
+    }
+
+
+
+
+    /* Section Satu */
+
+
+    .section-satu .wrap-property .property {
+        position: absolute;
+        top: 40%;
+        left: 35%;
+    }
+
+    .card-satu .gambar-satu {
+        width: 100%;
+        flex-direction: row;
+    }
+    .card-satu .gambar-satu div {
+        width: 50%;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .card-satu .gambar-satu div img {
+        width: 100%;
+    }
+
+    .card-satu .gambar-dua {
+        width: 100%;
+        flex-direction: row;
+    }
+    .card-satu .gambar-dua div {
+        width: 50%;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .card-satu .gambar-dua div img {
+        width: 100%;
+    }
+
+    .card-dua .gambar-tiga {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .card-dua .gambar-tiga .produk-satu {
+        width: 35%;
+    }
+
+    .card-dua .gambar-tiga .produk-dua {
+        width: 35%;
+    }
+
+    .card-dua .gambar-tiga .produk-tiga {
+        width: 35%;
+    }
+
+    .card-dua .gambar-empat {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .card-dua .gambar-empat .produk-empat {
+        width: 35%;
+    }
+
+    .card-dua .gambar-empat .produk-lima {
+        width: 35%;
+    }
+
+    .card-dua .gambar-empat .produk-enam {
+        width: 35%;
+    }
+
+
+
+
+    article .testimonial {
+        width: 60%;
+    }
+
+}
